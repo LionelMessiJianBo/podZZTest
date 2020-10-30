@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "podZZTest"
-  spec.version      = "2.2.0"
+  spec.version      = "2.3.0"
   spec.summary      = "podZZTest is about wkwebview source"
 
   # This description is used to generate tags and improve search results.
@@ -137,6 +137,6 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
     spec.dependency 'AFNetworking', "4.0.0"
-    spec.dependency 'CommonWeb'
+    spec.dependency 'CommonWeb', "1.5.0"
 
 end
